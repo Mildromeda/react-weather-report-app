@@ -55,18 +55,3 @@ const Weather=(props)=>{
   }
 
 export default Weather
-
-this.props.city etc is not used because we didn't use the class keyword. Also don't forget to pass props argument in arrow function
-*/
-
-/*
-Before CSS
-
-<div>
-         {this.props.city && this.props.country && <p>Location:{this.props.city},{this.props.country}</p>}
-            {this.props.temperature && <p>Temperature:{this.props.temperature}</p>}
-            {this.props.humidity && <p>Humidity:{this.props.humidity}</p>}
-           {this.props.description && <p>Conditions:{this.props.description}</p>}
-           {this.props.error && <p>{this.props.error}</p>}
-        </div>
-*/
